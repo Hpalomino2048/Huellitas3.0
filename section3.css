@@ -1,0 +1,25 @@
+#section3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+    height: 250px;
+}
+.contenedor_imagen_donacion{
+    width: 1200px;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(imagenes/huellitas\ vallarta\(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 187, 0);
+}
+
+@media screen and (max-width: 1200px) {
+    #section3{
+        width: 98%;
+    }
+    .contenedor_imagen_donacion{
+        width: 100%;
+    }
+}
